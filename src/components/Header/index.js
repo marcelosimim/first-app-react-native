@@ -16,7 +16,7 @@ export default function Header({ name }) {
             <View style={styles.content}>
                 <Text style={styles.username}>{name}</Text>
                 <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
-                    <Feather name="user" size={27} color="#fff" ></Feather>
+                    <Feather name="user" size={27} color="#fefb30" ></Feather>
                 </TouchableOpacity>
             </View>
         </View>
@@ -25,7 +25,7 @@ export default function Header({ name }) {
 
 const styles = StyleSheet.create({
     container: { 
-        backgroundColor: '#8000ff',
+        backgroundColor: '#475fff',
         paddingTop: statusBarHeight,
         flexDirection: 'row',
         paddingStart: 16,

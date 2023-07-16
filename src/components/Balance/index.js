@@ -59,6 +59,6 @@ const styles = StyleSheet.create({
     },
     expense: { 
         fontSize: 22,
-        color: '#e7ac3c'
+        color: '#eb4034'
     }
 })
